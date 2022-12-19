@@ -7,6 +7,7 @@ import { Repository } from 'typeorm';
 export class MatieresService {
   @InjectRepository(Matieres) private readonly matieres: Repository<Matieres>;
 
+  // j'affiche les matieres 
   findAll() {
     return this.matieres.find();
   }
