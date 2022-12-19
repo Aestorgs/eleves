@@ -10,10 +10,14 @@ export class UsersService {
   constructor(
     @InjectRepository(User) private readonly users: Repository<User>,
   ) {}
+  
+  //j'affiche tout les utilisateurs
 
   findAll() {
     return this.users.find();
   }
+  
+  //j'affiche tout les utilisateurs par id avec leurs matieres
 
   findById(id: number) {
     return this.users.find({
@@ -23,6 +27,8 @@ export class UsersService {
       where: { id },
     });
   }
+  
+  //j'affiche tout les utilisateurs par id avec leurs matieres avec leurs moyennes
 
   async findByMatiereId(id: number) {
     const user = await this.users.findOne({
