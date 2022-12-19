@@ -21,10 +21,28 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+  
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Contexte: but du projet : crée un eleves
+
+Fonctionnalités attendues : 
+
+afficher les utilisateurs , 
+afficher les utilisateurs avec leur matiere , 
+affiche l'utlisateur avec leur matierre et leurs moyenne ,  
+affiche les matierre 
+
+Durée : 1 jours ,
+
+Taches réalisées : Aestorgs ,
+
+Technos utilisées : Typescript , Docker , Postgres
+
+Outils et ressources : Nestjs , TypeOrm 
+.
 
 ## Installation
 
