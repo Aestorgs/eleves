@@ -41,7 +41,7 @@ Taches réalisées : Aestorgs ,
 
 Technos utilisées : Typescript , Docker , Postgres
 
-Outils et ressources : Nestjs , TypeOrm 
+Outils et ressources : Nestjs , TypeOrm ,
 .
 
 ## Installation
